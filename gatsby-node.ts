@@ -5,7 +5,7 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
     module: {
       rules: [
         {
-          test: /\.js/,
+          test: /\.(tsx|jsx|ts|js)?$/,
           use: [{ loader: '@wyw-in-js/webpack-loader' }],
         },
       ],
