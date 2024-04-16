@@ -16,14 +16,20 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@linaria/core": "^6.1.0",
+    "@linaria/react": "^6.1.0",
+    "@wyw-in-js/babel-preset": "^0.5.0",
     "gatsby": "^5.13.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.24.1",
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "@wyw-in-js/webpack-loader": "^0.5.0",
+    "babel-preset-gatsby": "^3.13.2",
     "typescript": "^5.3.3"
   }
 }
